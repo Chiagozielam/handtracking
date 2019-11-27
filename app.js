@@ -6,7 +6,7 @@ navigator.getUserMedia =
 
 // select everything in html
 const video = document.querySelector("#video");
-const audio = document.querySelector("#audio");
+const audio = document.getElementById("audio");
 const canvas = document.querySelector("#canvas");
 const context = canvas.getContext("2d");
 let model;
